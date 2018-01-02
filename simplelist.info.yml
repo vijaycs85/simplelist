@@ -3,6 +3,8 @@ name: Simple List
 description: Provides an easy way to build simple FAQ like list pages.
 core: 8.x
 dependencies:
+  - path
+  - taxonomy
   - views
   - entityqueue
   - default_content
