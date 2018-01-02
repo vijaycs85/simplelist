@@ -1,0 +1,8 @@
+smooth_scrolling:
+  version: VERSION
+  js:
+    js/smooth_scrolling.js: {}
+  dependencies:
+    - core/jquery
+    - core/jquery.once
+    - core/drupal.ajax

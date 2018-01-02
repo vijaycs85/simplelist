@@ -1,0 +1,7 @@
+administer simplelist:
+  title: 'Administer Simple List'
+  restrict access: true
+
+access simplelist:
+  title: 'Access Simple List'
+  restrict access: true

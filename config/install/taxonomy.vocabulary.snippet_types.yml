@@ -1,0 +1,8 @@
+langcode: en
+status: true
+dependencies: {  }
+name: 'Snippet types'
+vid: snippet_types
+description: 'Snippet category'
+hierarchy: 0
+weight: 0

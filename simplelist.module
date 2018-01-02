@@ -1,0 +1,28 @@
+<?php
+
+/**
+ * Implements hook_preprpocess_HOOK().
+ *
+ * Add id attributes to work with URL fragments.
+ */
+function simplelist_preprocess_views_view_fields__snippets(&$variables) {
+  $plugin_id = $variables['view']->display_handler->getPluginId();
+  if ($plugin_id == 'attachment' && isset($variables['fields']['title'])) {
+    $nid = $variables['row']->nid;
+    /** @var \Drupal\Core\Template\Attribute $wrapper_attributes */
+    $wrapper_attributes = $variables['fields']['title']->wrapper_attributes;
+    // Set an id to do in-page scrolling.
+    $wrapper_attributes->setAttribute('id', 'snippet-' . $nid);
+  }
+}
+
+/**
+ * Implements hook_views_pre_render().
+ */
+function simplelist_views_pre_render($view) {
+  // Add smooth scroll to snippet views.
+  if ($view->storage->id() == 'snippets' && empty($view->live_preview)) {
+    $view->element['#attached']['library'][] = 'simplelist/smooth_scrolling';
+  }
+  return $view;
+}

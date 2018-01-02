@@ -1,0 +1,12 @@
+type: module
+name: Simple List
+description: Provides an easy way to build simple FAQ like list pages.
+core: 8.x
+dependecies:
+  - views
+  - entityqueue
+  - default_content
+
+default_content:
+  taxonomy_term:
+    - 0739849e-e0ee-4f86-bb07-97b9c4dff9bc

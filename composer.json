@@ -1,0 +1,7 @@
+{
+  "name": "drupal/simplelist",
+  "description": "Provides an easy way to build simple FAQ like list pages.",
+  "type": "drupal-module",
+  "homepage": "http://drupal.org/project/simplelist",
+  "license": "GPL-2.0+"
+}

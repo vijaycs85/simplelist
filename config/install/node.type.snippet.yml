@@ -1,0 +1,11 @@
+langcode: en
+status: true
+dependencies: {}
+third_party_settings: {}
+name: Snippet
+type: snippet
+description: 'Simple content type with title and Description for simple list.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true
