@@ -4,7 +4,7 @@
             "href": "http:\/\/default\/taxonomy\/term\/1?_format=hal_json"
         },
         "type": {
-            "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/snippet_type"
+            "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/snippet_types"
         }
     },
     "tid": [
@@ -25,7 +25,7 @@
     ],
     "vid": [
         {
-            "target_id": "snippet_type"
+            "target_id": "snippet_types"
         }
     ],
     "name": [

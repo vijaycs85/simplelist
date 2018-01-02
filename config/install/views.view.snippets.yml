@@ -5,9 +5,9 @@ dependencies:
     - entityqueue.entity_queue.faq
     - field.storage.node.body
     - node.type.snippet
-    - taxonomy.vocabulary.snippet_type
+    - taxonomy.vocabulary.snippet_types
   content:
-    - 'taxonomy_term:snippet_type:0739849e-e0ee-4f86-bb07-97b9c4dff9bc'
+    - 'taxonomy_term:snippet_types:0739849e-e0ee-4f86-bb07-97b9c4dff9bc'
   module:
     - entityqueue
     - node
@@ -183,7 +183,7 @@ display:
           reduce_duplicates: false
           type: select
           limit: true
-          vid: snippet_type
+          vid: snippet_types
           hierarchy: false
           error_message: true
           plugin_id: taxonomy_index_tid

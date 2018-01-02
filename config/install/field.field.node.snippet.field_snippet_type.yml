@@ -4,9 +4,9 @@ dependencies:
   config:
     - field.storage.node.field_snippet_type
     - node.type.snippet
-    - taxonomy.vocabulary.snippet_type
+    - taxonomy.vocabulary.snippet_types
   content:
-    - 'taxonomy_term:snippet_type:0739849e-e0ee-4f86-bb07-97b9c4dff9bc'
+    - 'taxonomy_term:snippet_types:0739849e-e0ee-4f86-bb07-97b9c4dff9bc'
 id: node.snippet.field_snippet_type
 field_name: field_snippet_type
 entity_type: node
@@ -23,7 +23,7 @@ settings:
   handler: 'default:taxonomy_term'
   handler_settings:
     target_bundles:
-      snippet_type: snippet_type
+      snippet_types: snippet_types
     sort:
       field: name
       direction: asc

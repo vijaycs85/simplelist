@@ -8,9 +8,9 @@ This module provides snippet **content type** with snippet type **taxonomy vocab
 ### Install
 
 1. Install module usual.
-2. Create term (e.g. FAQ) under [snippet types]() taxonomy
-3. Create new [snippet]() nodes
-4. Update [view page display]() field with new term created in step 2.
+2. Create new [snippet]() nodes
+3. Add nodes to faq node queue.
+4. visit `/faq` page to see questions and answers.
 
 ### Create new page
 
