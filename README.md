@@ -1,4 +1,9 @@
 ## Simple List
+
+[![Build Status](https://travis-ci.org/vijaycs85/simplelist.svg?branch=8.x-1.x)](https://travis-ci.org/vijaycs85/simplelist)
+
+### Overview
+
 Simplelist module provides set of configurations to create simple list page like drupal.org [FAQ](https://www.drupal.org/about/faq) page.
 
 ### How does it work?
