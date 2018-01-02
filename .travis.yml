@@ -95,7 +95,6 @@ before_script:
 
 script:
   - phpcs --standard=phpcs.xml tests -s
-  - phpcs --standard=phpcs.xml simplelist.module
 
   - drupal-ti script
 
