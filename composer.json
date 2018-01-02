@@ -3,5 +3,9 @@
   "description": "Provides an easy way to build simple FAQ like list pages.",
   "type": "drupal-module",
   "homepage": "http://drupal.org/project/simplelist",
-  "license": "GPL-2.0+"
+  "license": "GPL-2.0+",
+  "minimum-stability": "dev",
+  "require-dev": {
+    "vijaycs85/drupal-quality-checker": "^1.0"
+  }
 }
